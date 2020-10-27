@@ -2,6 +2,7 @@ function cargarInformacion() {
     window.name = "Ventana";
     let funcion = function() {
         //Se crea una ventana nueva son toolbar, de tamañan 500*300,sin barra de menú,
+        
         //sin barras de scroll y a 300px del margen superior y a 300 px del margen izquierdo de la pantalla.
         let ventanaNueva = window.open("", "pop-up", "toolbar=false,width=500,height=300,menubar=false,scrollbar=false,screenX=300,screenY=300");
         //se añade un elemento de tipo p a la nueva ventana que incliurá el nombre de la ventana que la ha creado
